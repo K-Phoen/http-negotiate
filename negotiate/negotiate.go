@@ -9,6 +9,10 @@ type formatNegotiator struct {
 	acceptedFormats []string
 }
 
+func RegisterFormat(format string, mimeTypes []string) {
+	negotiation.RegisterFormat(format, mimeTypes)
+}
+
 func FormatNegotiator(acceptedFormats []string) *formatNegotiator {
 	return &formatNegotiator{
 		acceptedFormats: acceptedFormats,
