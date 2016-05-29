@@ -6,6 +6,12 @@ Content negotiation HTTP middleware for Go applications.
 It's a simple wrapper around my [negotiation library](https://github.com/K-Phoen/negotiation)
 which implements the `http.Handler` interface.
 
+## Status
+
+This project is **DEPRECATED** and should NOT be used. 
+
+If someone magically appears and wants to maintain this project, I'll gladly give access to this repository.
+
 ## Usage
 
 Here is a ready to use example with [Negroni](https://github.com/codegangsta/negroni):
